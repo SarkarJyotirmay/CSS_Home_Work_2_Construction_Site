@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+    background: url("./asset/construction-site-construction-work.jpg");
+    width: 100%;
+    height: 100vh;
+    color: wheat;
+}
+#header nav{
+    width: 100%;
+    height: 15vh;
+    background: linear-gradient(
+        #0c0c0c, #3e3e3e);
+    padding: 0 6rem;
+}
+nav ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8rem;
+}
+nav ul li{
+list-style: none;
+/* font-size: 1.1rem; */
+}
+nav ul #seperated{
+        width: 70px;
+        height: 30px;
+        background-color: white;
+        color: black;
+        padding: 6px 10px;
+        text-align: center;
+}
+
+main #main-1{
+margin: 30px;
+display: flex;
+justify-content: space-between;
+
+}
+#main-1 img{
+    display: block;
+    width: 30%;
+    height: 500px;
+}
+
+main #main-2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 2rem;
+    background-color: #0c0c0c;
+    color: #fff;
+    padding: 4%;
+
+}
+.content{
+    width: 47%;
+}
+.content img{
+    display: block;
+    width: 100%;
+}
